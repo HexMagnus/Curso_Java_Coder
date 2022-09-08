@@ -18,9 +18,9 @@ public class Inferencia {
 		 c= "Outro texto"; 
 		 System.out.println(c);
 		 
-		 double d;
-		 d = 123.65;
-		 System.out.println(d);
+		 double d; // variável foi declarada
+		 d = 123.65; //variável foi inicializada
+		 System.out.println(d); //usada
 		 
 		 
 		 // 4 formas de declarar variaveis declarando inferencia
