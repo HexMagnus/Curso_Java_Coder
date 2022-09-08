@@ -13,6 +13,18 @@ public class TiposPrimitivos {
 		
 		
 		//Tipos númericos reais
-		float salario = 11_445.44f;
+		float salario = 11_445.44F;
+		double vendasAcumuladas = 2_991_797_103.01;
+		
+		//Tipo booleano
+		boolean estaDeFerias = false; //true
+		
+		//Tipo caractere
+		char status = 'A';//ativo
+	
+		//Dias de empresa
+		System.out.println(anosDeEmpresa * 365);
+		
+		//Número de viagens
 	}
 }
