@@ -6,6 +6,9 @@ public class Inferencia {
 		double a = 4.5;
 		System.out.println(a);
 		
+		a = 12.57;
+		System.out.println(a);
+		
 		var b = 4.5;
 		System.out.println(b);
 		
@@ -14,6 +17,10 @@ public class Inferencia {
 		
 		 c= "Outro texto"; 
 		 System.out.println(c);
+		 
+		 double d;
+		 d = 123.65;
+		 System.out.println(d);
 		 
 		 
 		 // 4 formas de declarar variaveis declarando inferencia
