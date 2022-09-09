@@ -26,5 +26,13 @@ public class TiposPrimitivos {
 		System.out.println(anosDeEmpresa * 365);
 		
 		//Número de viagens
+		System.out.println(numeroDeVoos /2 );
+		
+		//Pontos por real
+		System.out.println(pontosAcumulados / vendasAcumuladas);
+		
+		System.out.println(id + ":ganha -> " + salario);
+		System.out.println("Férias ? " + estaDeFerias);
+		System.out.println("Status: " + status );
 	}
 }
