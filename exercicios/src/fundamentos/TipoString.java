@@ -12,6 +12,15 @@ public class TipoString {
 		System.out.println(s.startsWith("Boa"));
 		System.out.println(s.toLowerCase().startsWith("boa"));
 		System.out.println(s.toUpperCase().endsWith("Tarde"));
-		System.out.println(s.lenght());
+		System.out.println(s.length());
+		System.out.println(s.toLowerCase().equals("boa tarde"));
+		System.out.println(s.equalsIgnoreCase("boa tarde"));
+		
+		var nome = "Pedro";
+		var sobrenome = "Santos";
+		var idade = 33;
+		var salario = 12345.987;
+		
+		System.out.println("Nome: " + nome + "Sobrenome: " + sobrenome);
 	}
 }
