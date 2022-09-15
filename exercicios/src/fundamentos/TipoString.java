@@ -7,7 +7,11 @@ public class TipoString {
 		
 		
 		String s = "Boa tarde";
-		System.out.println();
-		System.out.println();
+		System.out.println(s.concat("!!!"));
+		System.out.println(s + "!!!");
+		System.out.println(s.startsWith("Boa"));
+		System.out.println(s.toLowerCase().startsWith("boa"));
+		System.out.println(s.toUpperCase().endsWith("Tarde"));
+		System.out.println(s.lenght());
 	}
 }
