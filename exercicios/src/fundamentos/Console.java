@@ -17,8 +17,20 @@ public class Console {
 		System.out.printf("Megasena %d %d %d %d %d %d %n",1,2,3,4,5,6);
 		System.out.printf("Salário: %.1f%n" , 1234.5678);
 		System.out.printf("Nome: %s%n", "João");
+
+		
 		
 		Scanner entrada = new Scanner(System.in);
+		
+		System.out.print("Digite o seu nomne:");
+		String nome = entrada.nextLine();
+		
+		System.out.print("Digite o seu sobrenomne:");
+		String sobrenome = entrada.nextLine();
+	
+	
+		
+		System.out.println("\n\nNome = " + nome + " " + sobrenome);
 	}
 
 }
