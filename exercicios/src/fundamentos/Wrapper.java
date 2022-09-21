@@ -17,7 +17,13 @@ public class Wrapper {
 		System.out.println(i * 3);
 		System.out.println(l /3);
 		
-		Boolean
+		Boolean bo = Boolean.parseBoolean("true");
+		System.out.println(bo);
+		System.out.println(bo.toString().toUpperCase());
+		
+		Character c = '#';
+		System.out.println(c + "...");
+		
 
 
 	}
