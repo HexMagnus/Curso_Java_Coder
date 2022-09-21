@@ -8,8 +8,10 @@ public class PrimitivoVsObjeto {
 	String s = new String ("texto");
 	s.toUpperCase();
 	
+	
+	//Wrappers são a versão objeto dos tipos primitivos
 	int a = 123;
-	a.
+	System.out.println(a);
 	
 	}
 
