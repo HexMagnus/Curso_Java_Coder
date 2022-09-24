@@ -12,8 +12,13 @@ public class ConversaoTipoPrimitivoNumerico {
 		System.out.println(b);
 		
 		int c = 127;
-		byte d = (byte)c;
+		byte d = (byte)c; //explicita (CAST)
 		System.out.println(d);
+		
+		double e = 1.9999;
+		int f = (int) e; //explicita (CAST)
+		System.out.println(f);
+		
 	}
 
 }
