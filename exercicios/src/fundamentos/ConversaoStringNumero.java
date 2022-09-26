@@ -16,6 +16,7 @@ public class ConversaoStringNumero {
 		double soma = numero1 + numero2;
 		System.out.println("Soma é  " + soma);
 		System.out.println("Média é " + soma / 2 );
+		
 	}
 
 }
