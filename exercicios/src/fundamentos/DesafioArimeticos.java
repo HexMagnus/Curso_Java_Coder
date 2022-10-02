@@ -17,7 +17,7 @@ public class DesafioArimeticos {
 		
 		double resultado = superior / inferior;
 		
-		System.out.println("O resultado é" + resultado);
+		System.out.println("O resultado é " + resultado);
 		
 		
 	}
