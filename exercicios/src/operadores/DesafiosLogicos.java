@@ -14,6 +14,8 @@ public class DesafiosLogicos {
 		boolean comprouTV32 = trabalho1 ^ trabalho2;
 		boolean comprouSorvete = trabalho1 || trabalho2;
 		
+		boolean maisSaudavel = !comprouSorvete;
+		
 		
 		System.out.println("Comprou TV 50\"? " + comprouTV50); // barra na frente indica "ESCAPE"
 		System.out.println("Comprou TV 50\"? " + comprouTV32);
